@@ -111,3 +111,18 @@ ol{
     display: flex;
     justify-content: space-around;
 }
+
+p{
+    text-align: justify;
+}
+
+#sobreMi > img{
+    width: 20%;
+    height: auto
+}
+
+@media only screen and (min-width: 452px) and (max-width: 1006px) {
+	li{
+        font-size: 0.6rem;
+    }
+}

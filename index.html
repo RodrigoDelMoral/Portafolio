@@ -5,25 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio - Rodrigo Del Moral</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../FontAwesome/css/all.css">
+    <script src="./script.js"></script>
 </head>
 <body>
     <header>
-    <h1>Rodrigo Del Moral</h1>
+        <a href="#"><h1>Rodrigo Del Moral</h1></a>
     <nav>
-        <a href="#sobreMi">Sobre Mi</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#">Contacto</a>
+        <a class="navItem" href="#sobreMi">Sobre Mi</a>
+        <a class="navItem" href="#proyectos">Proyectos</a>
+        <a class="navItem" href="#habilidades">Habilidades</a>
+        <a class="navItem" href="#contacto">Contacto</a>
     </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Descubre mis +X proyectos terminados!.</h2>
+        <section id="catchPrhaseContainer">
+            <h2>Explora mis proyectos terminados!.</h2>
         </section>
 
+        <section id="proyectos">
+            <article id="proyectoP">
+                <h3 id="tituloP">Parroquia del sagrado Corazón de Jesus</h3>
+                <article id="contenidoProyectoP" class="hide">
+                    <img class ="imgProyecto" src="Parroquia.png" alt="Imagen Página de la parroquia">
+                    <p>
+                        Este Proyecto se desarrollo para una parroquia con la finalidad de que los 
+                        feligreses tuvieran una forma de consultar los servicios que ofrecen asi como
+                        la historia de la parroquia y su obismo. Cuenta que multiples elementos interactivos
+                        y es autogestionable, es decir desarrolle un sistema de gestión para que el padre pudiera
+                        actualizar el carrusel, la galeria de imagenes y algunas otras secciones.
+                    </p>
+                </article>
+            </article>
+            <article id="proyectoDOT">
+                <h3 id="tituloDOT">Editorial de otro tipo</h3>
+                <article id="contenidoProyectoDOT" class="hide">
+                    <img class ="imgProyecto" src="DeOtroTipo.png" alt="Imagen Página de otro tipo">
+                    <p>Esta página tuvo como objetivo principal proporcionar un sistema en el que se 
+                        pudieran realizar compras en linea y que pudiese hacer cotizaciones para los envios.
+                        Tambien cuenta con multiples elementos interactivos, y es autogestionable, en este proyecto
+                        no solo se enfoco en la gestion de elementos multimedia, si no tambien se proporciona
+                        un sistema de administración para sus ventas, catalogo e inventario. Se proporciona una 
+                        interfaz sencilla e intuitiva para que cualquier empleado de la editorial sea capaz
+                        de manipular el sistema de administración sin complicaciones.
+                    </p>
+                </article>
+            </article>
+        </section>
+
+        <div id="tituloSobreMiContainer">
+            <h2 id="tituloSobreMi">Ingeniero en Computación y Desarrollador Full Stack (PERN)</h2>
+        </div>
         <section id="sobreMi">
-            <h3>Ingeniero en Computación y Desarrollador Full Stack (PERN)</h3>
+            <img src="imgRodrigo.png" alt="Imagen Rodrigo Del Moral">
             <p id="textoSobreMi">
                 Soy un Ingeniero recien egresado de la Universidad Autónoma Metropolitána (UAM) 
                 Unidad Cuajimalpa, durante mi formación domine el paradigma orientado a objetos
@@ -32,19 +68,37 @@
                 Cuento con una certificación en desarrollo web full stack PERN que obtuve en la plataforma
                 Codecademy, tambien tengo una certificación de nivel avanzado de ingles (B2).
             </p>
-            <img src="imgRodrigo.png" alt="Imagen Rodrigo Del Moral">
-        </section>
-
-        <section id="proyectos">
             
         </section>
 
-        <section id="habilidades">
 
+
+        <section id="habilidades">
+            <div id="tituloHabilidadesContainer">
+                <h2 id="tituloHabilidades">Herramientas dominadas</h2>
+            </div>
+            <ol>
+                <li>HTML 5</li>
+                <li>CSS 3</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>Ajax</li>
+                <li>BootStrap</li>
+                <li>MySQL</li>
+                <li>PHP</li>
+                <li>PostgreSQL</li>
+                <li>Express</li>
+                <li>React</li>
+                <li>Node js</li>
+            </ol>
         </section>
 
         <section id="contacto">
-            
+            <div id="tituloContactoContainer">
+                <h2 id="tituloContacto">Información de contacto</h2>
+            </div>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i><b>Correo:</b> rodrigo.delmoral@hotmail.com</p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i><b>Telefono:</b> 5559063172</p>
         </section>
 
     </main>

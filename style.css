@@ -1,0 +1,113 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkslategrey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+h2,
+#tituloSobreMi,
+#tituloContacto,
+#tituloHabilidades{
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 50%;
+    padding-bottom: 2rem;
+}
+
+header>a{
+    color: gainsboro;
+    text-decoration: none;
+}
+
+main{
+    margin-top: 8rem;
+}
+
+.navItem{
+    margin-right:  1rem;
+    text-decoration: none;
+    color: gainsboro; 
+}
+
+.navItem:hover{
+    color: cornflowerblue;
+}
+
+#catchPrhaseContainer,
+#tituloSobreMiContainer,
+#tituloContactoContainer,
+#tituloHabilidadesContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#proyectos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sobreMi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#textoSobreMi{
+    width: 50%;
+}
+
+#tituloSobreMi{
+    margin-top: 5rem;
+}
+
+#tituloContactoContainer{
+    width: 50rem;
+}
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgProyecto{
+    width: 45%;
+    height: auto;
+}
+
+#proyectoDOT,
+#proyectoP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.contenidoProyecto > p{
+    text-align: justify;
+}
+
+#contenidoProyectoDOT,
+#contenidoProyectoP{
+    flex-direction: column;
+    align-items: center;
+}
+
+.showFlex{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+ol{
+    display: flex;
+    justify-content: space-around;
+}
